@@ -1,0 +1,38 @@
+﻿body{
+	font:13px "微软雅黑",Arial,Tahoma, Helvetica, Sans-Serif;
+	
+}
+.content h3{
+	color: #666;
+	background: #f1f7fd;
+	border: 1px solid #d2e8fa;
+	padding: 5px 10px;
+}
+.content p{
+	text-indent:2em; 
+}
+.content img{
+	height: expression(this.width > 300 ? this.height = this.height * 300 / this.width : "auto");
+	width: expression(this.width > 300 ? "300px" : "auto");
+	max-width:300px;
+}
+.content{
+	background-color:white;
+	margin-left:auto;
+  	margin-right:auto;
+	width:90%;
+	height:100%;
+}
+
+@media screen and (max-width: 2960px) {
+.content{
+	padding: 10px 30px 400px 30px;
+	
+	
+}
+}
+@media screen and (max-width: 960px) {
+.content{
+	padding: 10px 30px 10px 30px;
+}
+}
